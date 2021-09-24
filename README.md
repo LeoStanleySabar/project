@@ -9,4 +9,4 @@ Steps :
 6. GOTO target folder and run command:                                 java -jar ShoppingCart-0.0.1-SNAPSHOT.jar -Dskip.tests=true
 
 7. use the url : http://127.0.0.1:8081/#!/login
-User Login:  user/password 
+User Login:  user@gmail.com/password 
