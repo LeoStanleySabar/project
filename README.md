@@ -1,12 +1,20 @@
 # shoppingcart
-Steps :
-1. Unzip the angularJS file and run the commands:                      npm install http-server --save
-2. Unzip the server file and run the the command:                      java -jar server-0.0.1-SNAPSHOT.jar -Dskip.tests=true
-3. Go back to unzipped angularJs folder and run the command:           http-server -o
 
-4. Setup PstgresDB or MySqLDB  [this proj uses postgresDB] and make a new DB with name  ' shopdbnew '
-5. Check maven setup in local and run command:                         mvn install -Dmaven.test.skip=true
-6. GOTO target folder and run command:                                 java -jar ShoppingCart-0.0.1-SNAPSHOT.jar -Dskip.tests=true
+Firstly there is a login Page 
+After successful login goto basic home page
 
-7. use the url : http://127.0.0.1:8081/#!/login
-User Login:  user@gmail.com/password 
+There is a Basic Home Page shows -
+All Categories
+Integrated Categories API to get All available categories list
+
+Show Categories based on search conditions -
+On Category item Click Call API to get Products for selected Category
+On click of product, go to the product detail page
+
+There is Product Details -
+Integrated API to get Product by Id and show in details screen with Category name
+Click on add to cart button will add count in header cart icon.
+
+There is a Search List -
+When user type word in the search box, display all possible product list related to
+search word in the list
